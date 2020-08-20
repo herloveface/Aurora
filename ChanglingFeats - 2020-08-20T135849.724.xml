@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Feats - Changling</name>
+        <author url="https://homebrewery.naturalcrit.com/share/ByQLcnf9G/">Source Material (Chameleon)</author>
+        <update version="1.5.0">
+            <file name="ChangelingFeats.xml" url="https://homebrewery.naturalcrit.com/share/ByQLcnf9G" />
+        </update>
+    </info>
+    
+    <element name="Chameleon" type="Feat" source="JMBrew" id="Changeling_Feat_Chamleon">
+        <requirements>ID_WOTC_WGTE_RACE_CHANGELING||ID_WOTC_ERLW_RACE_CHANGELING||ID_WOTC_UA_RACE_CHANGELING</requirements>
+        <prerequisites>Changeling</prerequisites>
+        <description>
+            <p><i>Prerequisite: Changeling</i></p>
+            <p>Your shapechanging is so complex, that it is hard to see through it even by magical means. You gain the following benefits</p>
+            <ul>
+                    <li>Increase your Charisma score by 1, to a maximum of 20.</li>
+                    <li>You have advantage on Saving Throw agains divination effects.</li>
+                    <li>You can cast the Nondetection spell on yourself without spending spell slots or material components once. You must finish a long rest to do it again.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against divination effects and can cast Nondetection on yourself once per long rest.</description>
+            </sheet>
+            <rules>
+                <stat name="charisma" value="1" />
+                <grant id="ID_PHB_SPELL_NONDETECTION" type="Spell"/>
+            </rules>
+    </element>
+
+<element name="Changeling Evolution" type="Feat" source="JMBrew" id="Changeling_Evolution">
+        <requirements>[level:8],ID_WOTC_WGTE_RACE_CHANGELING||[level:8],ID_WOTC_ERLW_RACE_CHANGELING||[level:8],ID_WOTC_UA_RACE_CHANGELING</requirements>
+        <prerequisites>Changeling and Level 8</prerequisites>
+        <description>
+            <p><i>Prerequisite: Changeling and Level 8</i></p>
+            <p>You have managed through utilizing your skills to tap into your Doppelganger heritage and gain the following benefits</p>
+            <ul>
+                    <li>You are immune to Sleep and Charm spells and effects.</li>
+                    <li>You can cast Detect thoughts without spending spell slots or material componants 3 times. You must finish a long rest in order to replenish this ability.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You are Immune to sleep and charm effects and can cast Detect thoughts 3 times per long rest.</description>
+            </sheet>
+            <rules>
+                <grant id="ID_PHB_SPELL_DETECT_THOUGHTS" type="Spell"/>
+            </rules>
+    </element>
+</elements>
