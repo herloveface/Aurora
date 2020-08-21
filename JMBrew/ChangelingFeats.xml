@@ -8,7 +8,7 @@
         </update>
     </info>
     
-    <element name="Chameleon" type="Feat" source="JMBrew" id="Changeling_Feat_Chamleon">
+    <element name="Chameleon" type="Feat" source="JMBrew" id="CHANGELING_FEAT_CHAMELEON">
         <requirements>ID_WOTC_WGTE_RACE_CHANGELING||ID_WOTC_ERLW_RACE_CHANGELING||ID_WOTC_UA_RACE_CHANGELING</requirements>
         <prerequisites>Changeling</prerequisites>
         <description>
@@ -29,8 +29,8 @@
             </rules>
     </element>
 
-<element name="Changeling Evolution" type="Feat" source="JMBrew" id="Changeling_Evolution">
-        <requirements>[level:8],ID_WOTC_WGTE_RACE_CHANGELING||[level:8],ID_WOTC_ERLW_RACE_CHANGELING||[level:8],ID_WOTC_UA_RACE_CHANGELING</requirements>
+<element name="Changeling Evolution" type="Feat" source="JMBrew" id="CHANGELING_FEAT_EVOLUTION">
+        <requirements>[level:8],(ID_WOTC_WGTE_RACE_CHANGELING||ID_WOTC_ERLW_RACE_CHANGELING||ID_WOTC_UA_RACE_CHANGELING)</requirements>
         <prerequisites>Changeling and Level 8</prerequisites>
         <description>
             <p><i>Prerequisite: Changeling and Level 8</i></p>
