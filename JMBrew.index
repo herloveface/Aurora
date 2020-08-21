@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>JMBrew</name>
+		<description>The contents of JMBrew</description>
+		<author url="https://github.com/herloveface/Aurora">JMBrew</author>
+		<update version="0.2.5" revised="">
+			<file name="JMBrew.index" url="https://github.com/herloveface/Aurora/JMBrew.index" />
+		</update>
+	</info>
+	<files>
+		<file name="ChangelingFeats.xml" url="https://github.com/herloveface/Aurora/JMBrew/ChanglingFeats.xml" />
+	</files>
+</index>
