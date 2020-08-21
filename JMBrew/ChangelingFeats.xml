@@ -4,7 +4,7 @@
         <name>Feats - Changling</name>
         <author url="https://homebrewery.naturalcrit.com/share/ByQLcnf9G/">Source Material (Chameleon)</author>
         <update version="1.5.0">
-            <file name="ChangelingFeats.xml" url="https://homebrewery.naturalcrit.com/share/ByQLcnf9G" />
+            <file name="ChangelingFeats.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ChangelingFeats.xml" />
         </update>
     </info>
     
