@@ -9,6 +9,7 @@
 		</update>
 	</info>
 	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml" />
 		<file name="ChangelingFeats.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ChangelingFeats.xml" />
 	</files>
 </index>
