@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml" />
 		</update>
 	</info>
 	<element name="JMBrew" type="Source" source="JMBrew" id="ID_HOMEBREW_JMBREW">
