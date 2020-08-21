@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml.xml" />
+		</update>
+	</info>
+	<element name="JMBrew" type="Source" source="JMBrew" id="ID_HOMEBREW_JMBREW">
+		<description>
+			<![CDATA[<p></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">MHP</set>
+			<set name="url">https://github.com/herloveface/Aurora</set>
+			<set name="author" url="https://github.com/herloveface/Aurora">JMBrew</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
