@@ -10,7 +10,7 @@
 			<![CDATA[<p></p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">MHP</set>
+			<set name="abbreviation">JMBrew</set>
 			<set name="url">https://github.com/herloveface/Aurora</set>
 			<set name="author" url="https://github.com/herloveface/Aurora">JMBrew</set>
 			<set name="homebrew">true</set>
