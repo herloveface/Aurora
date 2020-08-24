@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<update version="0.0.1">
+			<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
+		</update>
+	</info>
+	<element name="Changeling Cothes, Minor" type="Magic Item" source="JMBrew" id="ID_JMBREW_CCMIN_WONDER">
+		<description>
+			<p>These clothes have the ability to change into any style, color and type of clothing in appearence.</p>
+			<p class="indent">As an action you can change the appearence of your clothing.</p>
+			<p class="indent">The change is an illusion and as such does not grant you any bonuses to armor or any other benifits of a magical nature even if used to replicate the style of a magic attire.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>			
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+	<element name="Changeling Cothes, Major" type="Magic Item" source="JMBrew" id="ID_JMBREW_CCMAJ_WONDER">
+		<description>
+			<p>These clothes have the ability to change into any style, color and type of clothing in appearence.</p>
+			<p class="indent">As an action can change the appearence of your clothing.</p>
+			<p class="indent">The change is a physical one and can grant you the AC bonus if the new form is that of Armor provided you have that armor proficiency.</p>
+			<p class="indent">The clothing gains the weight of whatever form it is in.</p>		
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+</elements>
