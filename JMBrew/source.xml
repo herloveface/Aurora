@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml" />
 		</update>
 	</info>
 	<element name="JMBrew" type="Source" source="JMBrew" id="ID_HOMEBREW_JMBREW">
 		<description>
-			<![CDATA[<p><STRONG>JMBrew Presents:</STRONG></p><p>Changeling Feats</p>]]>
+			<![CDATA[<p><STRONG>JMBrew Presents:</STRONG></p><p>Changeling Feats</p><p>Magic Items</p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">JMBrew</set>
