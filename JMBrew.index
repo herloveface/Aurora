@@ -4,12 +4,13 @@
 		<name>JMBrew</name>
 		<description>The contents of JMBrew</description>
 		<author url="https://github.com/herloveface">JMBrew</author>
-		<update version="0.2.6" revised="">
+		<update version="0.2.7" revised="">
 			<file name="JMBrew.index" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew.index" />
 		</update>
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/source.xml" />
 		<file name="ChangelingFeats.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ChangelingFeats.xml" />
+		<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 	</files>
 </index>
