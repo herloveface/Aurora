@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 		</update>
 	</info>
@@ -40,14 +40,14 @@
 
 	<element name="Ring of the Luckless" type="Magic Item" source="JMBrew" id="ID_JMBREW_ROL_RINGS">
 		<description>
-			<p>This ring resembles a band of silver and gold with a yellow and red stone set into it. Casting idenitify reveals the following information (not the curse itself but if furhter research is done history shows that ever weilder of this ring has met an unseemly fate.) While attuned to this ring you can roll an additional 1d20 and add it to any skill check or attack roll made.</p>
-			<p class="indent"><strong><em>Curse. </em></strong>If the ring is used your DM rolls a 1d20 and subtracts thier results from your overall total.</p>
+			<p>This ring resembles a band of silver and gold with a yellow and red stone set into it. Casting identify reveals the following information (not the curse itself but if furhter research is done history shows that ever weilder of this ring has met an unseemly fate.) While attuned to this ring you can roll an additional 1d20 and add it to any skill check or attack roll made.</p>
+			<p class="indent"><strong><em>Curse. </em></strong>If the ring is used your DM rolls a 1d20 and subtracts their results from your overall total.</p>
 			<p class="indent">If remove curse or dispel is cast on this ring the powers bound in it fade away over 1d10 minutes and the ring reverts to a non-magical form.</p>
 		</description>
 		<setters>
 			<set name="category">Rings</set>
 			<set name="type">Ring</set>
-			<set name="rarity">Uncommon</set>
+			<set name="rarity">Very Rare</set>
 			<set name="slot">ring</set>
 			<set name="equippable">true</set>
 			<set name="attunement">true</set>
