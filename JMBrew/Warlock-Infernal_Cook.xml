@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>The Hexblade</name>
+		<update version="0.0.1">
+			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
+		</update>
+	</info>
+	<element name="Infernal Cook" type="Archetype" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<p>So you have signed up with Jeff huh? Was that really that wise? Only time and your DM will tell.</p>
+			<p class="indent">Jeff is a fun loving psychopath with a penchant for cooking new and interesting things. He is never one for serious business unless the business is in fact very serious at which point he may half pay attention. He got to where he is by lying cheating and stealing and sometimes even dancing! He only makes a pact with a Warlock if he thinks it will be fun. He likes leading people to new and exciting things but he mostly enjoys putting the pious in their place (that's a cooking joke he likes putting them in vats for stew), Unless he can con them into signing up with him which makes the victory that much sweeter. He will occasionally ask his followers to create a new and exciting dish that he thought of and if you make a mistake he will berate you and belittle you and possible make you life an hour as a frog while giving his other Warlocks a mission to find you for a flavorful soup. Do not think him vile, he just enjoys a bit of sport now and than. He can grant you almost anything you want and if he cannot he will get it for you one way or another for a price.</p>
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" />
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" />
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" />
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_MAKINGUSEOFLEFTOVERS" />
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_GRABAQUICKBITE" />
+			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_MASTERBUTCHER" />
+		</description>
+		<sheet display="false">
+			<description>So you have signed up with Jeff...</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
+			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" level="1"/>
+			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" level="1"/>
+            <grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAKINGUSEOFLEFTOVERS" level="6"/>
+			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_GRABAQUICKBITE" level="10"/>
+			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAMASTERBUTCHER" level="14"/>
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST">
+		<supports>Warlock</supports>
+		<description>
+			<p>The Infernal Cook lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. You also are given Control Flames and Firebolt in addition to your other selections.</p>
+			<h5>INFERNAL COOK EXPANDED SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead> 
+				<tr><td>1st</td><td><em>Purify Food and Drink, Sleep</em></td></tr>
+				<tr><td>2nd</td><td><em>Blindness/Deafness, Hold Person</em></td></tr>
+				<tr><td>3rd</td><td><em>Counterspell, Fireball</em></td></tr>
+				<tr><td>4th</td><td><em>Control Water, mordenkainen's faithful hound</em></td></tr>
+				<tr><td>5th</td><td><em>Contact Other Plane, Reincarnate</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>The Infernal Cook lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK</extend>
+			<extend>ID_PHB_SPELL_SLEEP</extend>
+			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
+			<extend>ID_PHB_SPELL_HOLD_PERSON</extend>
+			<extend>ID_PHB_SPELL_COUNTERSPELL</extend>
+			<extend>ID_PHB_SPELL_FIREBALL</extend>
+			<extend>ID_PHB_SPELL_CONTROL_WATER</extend>
+			<extend>ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND</extend>
+			<extend>ID_PHB_SPELL_CONTACT_OTHER_PLANE</extend>
+			<extend>ID_PHB_SPELL_REINCARNATE</extend>
+		</spellcasting>
+	</element>
+	<element name="Butcher's Choice" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE">
+		<description>
+			<p>Starting at 1st level, you gain the ability to select a creature As a bonus action and gain the following Benefits:</p>
+			<ul>
+				<li>You deal an extra 1d6 necrotic damage on hit. (This damage increase by 1d6 at levels 4, 7, 10, and 13)</li>
+				<li>You Crit on 18-20 when using a weapon you are proficient with.</li>
+			</ul>
+			<p class="indent">You can’t use this feature again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>Choose one creature you can see within 30ft. You gain the following benefits:
+			You gain an extra {{Butcher:count}}d{{Butcher:die}} necrotic damage against the target and any attack roll you make against the target is a critical hit on a roll of 18, 19 or 20 on the d20.</description>
+		</sheet>
+		<rules>
+			<stat name="Butcher:count" value="1" level="1" />
+            <stat name="Butcher:count" value="1" level="4" />
+            <stat name="Butcher:count" value="1" level="7" />
+            <stat name="Butcher:count" value="1" level="10" />
+            <stat name="Butcher:count" value="1" level="13" />
+            <stat name="Butcher:die" value="6" bonus="die" />
+		</rules>
+	</element>
+	<element name="Damned Cook" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK">
+		<description>
+			<p>At 1st level you gain the following:</p>
+            <li>You gain proficiency with Cook's Utensils and double proficieincy at level 5.</li> 
+			<li>You lose proficiency in all weapons except daggers and cannot gain weapon except through Pact of the Blade.</li>
+			<li>Daggers you attack with deal 2d4 piercing damage.</li>
+			<li>You gain a form of indefinite madness. This cannot be cured in anyway without also breaking the Pact. You can either roll it randomly or choose your own but it is permanant and any attempt to cure it will force you to reroll the madness and a new one will replace it.</li>
+		</description>
+		<sheet>
+			<description>
+			<li>You gain proficiency with Cook's Utensils and double proficieincy at level 5.</li> 
+			<li>You lose proficiency in all weapons except daggers and cannot gain weapon except through Pact of the Blade.</li>
+			<li>Daggers you attack with deal 2d4 piercing damage.</li>
+			<li>You gain a form of indefinite madness. This cannot be cured in anyway without also breaking the Pact. Any attempt to cure it will force you to reroll the madness and a new one will replace it.</li>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS" />
+		</rules>
+	</element>
+	<element name="Making use of leftovers" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAKINGUSEOFLEFTOVERS">
+		<description>
+			<p>Starting at 6th level, You can make use of the remains of any humanoid you have slain by binding it to your service. When you cook a humanoid (Example: as simple as hitting it with firebolt or setting it on fire with a torch which will be counted as part of your attack action) you cause it to rise back from the dead as a Dread Warrior enshrouding it in fiery chain mail and a battleaxe of bone hewn from its own body. It gains temporary hits points equal to half your warlock level. Roll Initiative for the Dread warrior which has its own turns. It obeys your verbal commands and it gains a special bonus to its attack equal to your Charisma Modifier (minimum of +0).  It also receives your Cooking proficiencies.</p>
+			<p class="indent">The Dread Warrior remains in your service until your next long rest, at which point it crumbles into dust and cannot be brought back by this ability for a second time.</p>
+			<p class="indent">Once you use this ability you cannot use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can make use of the remains of any humanoid you have slain by binding it to your service. When you cook a humanoid (Example: as simple as hitting it with firebolt or setting it on fire with a torch which will be counted as part of your attack action) you cause it to rise back from the dead as a Dread Warrior enshrouding it in fiery chain mail and a battleaxe of bone hewn from its own body. Dread warrior it gains {{dread warrior:temp hp}} temporary hp, rolls initiative, has its own turns, and gains a +{{dread warrior:attack bonus}} bonus to attack rolls. It also receives your Cooking proficiencies.</description>
+		</sheet>
+		<rules>
+			<stat name="dread warrior:attack bonus" value="charisma:modifier" />
+			<stat name="dread warrior:temp hp" value="level:warlock:half" />
+		</rules>
+	</element>
+	<element name="Grab a quick bite" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_GRABAQUICKBITE">
+		<description>
+			<p>At 10th level, You have gained the ability to find food from your own creations with no ill effects and have instead gained insight on how to increase your power by doing so. If you currently have a Dread Warrior active you can cut chunks of it off and turn it into a viable food source. For each ration you take off of it it loses 2 hit points (these cannot be healed in anyway and only apply to this incarnation of the Dread Warrior future uses of Making use of Leftovers will not have any lingering effects)</p>
+				<li>For the next 2 hours the Ration you create with this ability if consumed will heal you (or the creature ingesting the ration) 1d4 + your Charisma Modifier.</li>
+				<li>If the ingestor of this ration is a spell caster they may gain back one expended spell slot of level equal to half your Charisma modifier or lower.</li>
+		</description>
+		<sheet>
+			<description>You have gained the ability to find food from your own creations with no ill effects and have instead gained insight on how to increase your power by doing so. If you currently have a Dread Warrior active you can cut chunks of it off and turn it into a viable food source. For each ration you take off of it it loses 2 hit points (these cannot be healed in anyway and only apply to this incarnation of the Dread Warrior future uses of Making use of Leftovers will not have any lingering effects)</p>
+				<li>For the next 2 hours the Ration you create with this ability if consumed will heal you (or the creature ingesting the ration) 1d4 + your Charisma Modifier.</li>
+				<li>If the ingestor of this ration is a spell caster they may gain back one expended spell slot of level equal to half your Charisma modifier or lower.</li> 
+			</description>
+		</sheet>
+	</element>
+	<element name="Master Butcher" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_MASTERBUTCHER">
+		<description>
+			<p>Starting at 14th level, You gain the ability to continue your search for the finest ingredients, once you slay a creature. When the creature affected by your Butcher's choice dies, you can apply it to a different creature you can see within 30 feet of you, provided you aren't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>When the creature affected by your Butcher's choice dies, you can apply it to a different creature you can see within 30 feet of you, provided you aren't incapacitated.</description>
+		</sheet>
+	</element>
+</elements>
