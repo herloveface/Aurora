@@ -4,7 +4,7 @@
 		<name>JMBrew</name>
 		<description>The contents of JMBrew</description>
 		<author url="https://github.com/herloveface">JMBrew</author>
-		<update version="0.2.8" revised="">
+		<update version="0.2.9" revised="">
 			<file name="JMBrew.index" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew.index" />
 		</update>
 	</info>
