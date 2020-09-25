@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.0.9">
+		<update version="0.1.0">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -28,6 +28,7 @@
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" level="1"/>
+			<grant type="Class Feature" id="ID_EXPERTISE_TOOL_COOKS_UTENSILS" level="5" />
             <grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAKINGUSEOFLEFTOVERS" level="6"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_GRABAQUICKBITE" level="10"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAMASTERBUTCHER" level="14"/>
@@ -140,5 +141,23 @@
 		<sheet>
 			<description>When the creature affected by your Butcher's choice dies, you can apply it to a different creature you can see within 30 feet of you, provided you aren't incapacitated.</description>
 		</sheet>
+	</element>
+
+	<!--Expertise-->
+	<element name="Tool Expertise (Cook's Utensils)" type="Class Feature" source="JMBrew" id="ID_EXPERTISE_TOOL_COOKS_UTENSILS">
+		<supports>Expertise, Tool, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Cook's Utensils check you make.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS" />
+			</div>
+		</description>
+		<sheet>
+        	<description>Your proficiency bonus is doubled for any Cook's Utensils check you make.</description>
+		</sheet>
+		<rules>
+			<stat name="cooks utensils:proficiency" value="proficiency" bonus="double" />
+		</rules>
 	</element>
 </elements>
