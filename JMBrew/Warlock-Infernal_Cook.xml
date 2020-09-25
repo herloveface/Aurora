@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -98,7 +98,6 @@
 		</description>
 		<sheet>
 			<description>
-			<li>You gain proficiency with Cook's Utensils and double proficieincy at level 5.</li> 
 			<li>You lose proficiency in all weapons except daggers and cannot gain weapon except through Pact of the Blade.</li>
 			<li>Daggers you attack with deal 2d4 piercing damage.</li>
 			<li>You gain a form of indefinite madness. This cannot be cured in anyway without also breaking the Pact. Any attempt to cure it will force you to reroll the madness and a new one will replace it.</li>
