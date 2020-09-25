@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -144,7 +144,6 @@
 
 	<!--Expertise-->
 	<element name="Tool Expertise (Cook's Utensils)" type="Class Feature" source="JMBrew" id="ID_EXPERTISE_TOOL_COOKS_UTENSILS">
-		<supports>Expertise, Tool, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
 		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS</requirements>
 		<description>
 			<p>Your proficiency bonus is doubled for any Cook's Utensils check you make.</p>
