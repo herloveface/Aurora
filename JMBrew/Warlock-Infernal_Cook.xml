@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -22,6 +22,7 @@
 			<description>So you have signed up with Jeff...</description>
 		</sheet>
 		<rules>
+			<grant type="Proficiency" id="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS" />
 			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
@@ -103,7 +104,7 @@
 			</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS" />
+			
 		</rules>
 	</element>
 	<element name="Making use of leftovers" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_MAKINGUSEOFLEFTOVERS">
