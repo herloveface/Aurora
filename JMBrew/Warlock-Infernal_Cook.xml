@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.1.2">
+		<update version="0.1.4">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -98,9 +98,9 @@
 		</description>
 		<sheet>
 			<description>
-			<li>You lose proficiency in all weapons except daggers and cannot gain weapon except through Pact of the Blade.</li>
-			<li>Daggers you attack with deal 2d4 piercing damage.</li>
-			<li>You gain a form of indefinite madness. This cannot be cured in anyway without also breaking the Pact. Any attempt to cure it will force you to reroll the madness and a new one will replace it.</li>
+			You lose proficiency in all weapons except daggers and cannot gain weapon proficiency except through Pact of the Blade.
+			&#13;&#10; Daggers you attack with deal 2d4 piercing damage.
+			&#13;&#10; You gain a form of indefinite madness. This cannot be cured in anyway without also breaking the Pact. Any attempt to cure it will force you to reroll the madness and a new one will replace it.
 			</description>
 		</sheet>
 		<rules>
@@ -129,8 +129,8 @@
 		</description>
 		<sheet>
 			<description>You have gained the ability to find food from your own creations with no ill effects and have instead gained insight on how to increase your power by doing so. If you currently have a Dread Warrior active you can cut chunks of it off and turn it into a viable food source. For each ration you take off of it it loses 2 hit points, these cannot be healed in anyway and only apply to this incarnation of the Dread Warrior future uses of Making use of Leftovers will not have any lingering effects
-				<li>For the next 2 hours the Ration you create with this ability if consumed will heal you (or the creature ingesting the ration) 1d4 + your Charisma Modifier.</li>
-				<li>If the ingestor of this ration is a spell caster they may gain back one expended spell slot of level equal to half your Charisma modifier or lower.</li> </description>
+			&#13;&#10; For the next 2 hours the Ration you create with this ability if consumed will heal you (or the creature ingesting the ration) 1d4 + your Charisma Modifier.</li>
+			&#13;&#10; If the ingestor of this ration is a spell caster they may gain back one expended spell slot of level equal to half your Charisma modifier or lower.</li> </description>
 		</sheet>
 	</element>
 	<element name="Master Butcher" type="Archetype Feature" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK_MASTERBUTCHER">
