@@ -4,7 +4,7 @@
 		<name>JMBrew</name>
 		<description>The contents of JMBrew</description>
 		<author url="https://github.com/herloveface">JMBrew</author>
-		<update version="0.3.0" revised="">
+		<update version="0.3.1" revised="">
 			<file name="JMBrew.index" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew.index" />
 		</update>
 	</info>
@@ -13,6 +13,7 @@
 		<file name="ChangelingFeats.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ChangelingFeats.xml" />
 		<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 		<file name="deities.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/deities.xml" />
+		<file name="warlock-invocations.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-invocations.xml" />
 		<file name="Warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/Warlock-Infernal_Cook.xml" />	
 	</files>
 </index>
