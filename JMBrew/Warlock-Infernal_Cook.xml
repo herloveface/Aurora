@@ -22,7 +22,7 @@
 			<description>So you have signed up with Jeff...</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB_ITEM_TOOL_COOKS_UTENSILS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
 			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
