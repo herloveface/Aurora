@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -10,7 +10,7 @@
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>So you have signed up with Jeff huh? Was that really that wise? Only time and your DM will tell.</p>
-			<p class="indent">Jeff is a fun loving psychopath with a penchant for cooking new and interesting things. He is never one for serious business unless the business is in fact very serious at which point he may half pay attention. He got to where he is by lying cheating and stealing and sometimes even dancing! He only makes a pact with a Warlock if he thinks it will be fun. He likes leading people to new and exciting things but he mostly enjoys putting the pious in their place (that's a cooking joke he likes putting them in vats for stew), Unless he can con them into signing up with him which makes the victory that much sweeter. He will occasionally ask his followers to create a new and exciting dish that he thought of and if you make a mistake he will berate you and belittle you and possible make you life an hour as a frog while giving his other Warlocks a mission to find you for a flavorful soup. Do not think him vile, he just enjoys a bit of sport now and than. He can grant you almost anything you want and if he cannot he will get it for you one way or another for a price.</p>
+			<p class="indent">Jeff is a fun loving psychopath with a penchant for cooking new and interesting things. He is never one for serious business unless the business is in fact very serious at which point he may half pay attention. He got to where he is by lying, cheating, stealing and sometimes even dancing! He only makes a pact with a Warlock if he thinks it will be fun. He likes leading people to new and exciting things but he mostly enjoys putting the pious in their place (that's a cooking joke he likes putting them in vats for stew), Unless he can con them into signing up with him which makes the victory that much sweeter. He will occasionally ask his followers to create a new and exciting dish that he thought of and if you make a mistake he will berate and belittle you and possibly make you live an hour as a frog while giving his other followers a mission to find you for a flavorful soup. Do not think him vile, he just enjoys a bit of sport now and than. He can grant you almost anything you want and if he cannot he will get it for you one way or another for a price.</p>
 			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" />
 			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" />
 			<div element="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" />
