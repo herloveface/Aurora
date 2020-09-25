@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
