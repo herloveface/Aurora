@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -25,7 +25,6 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
 			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
-			<grant type="Class Feature" id="ID_COOK PACT" />
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" level="1"/>
