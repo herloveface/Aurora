@@ -4,7 +4,7 @@
         <name>Eldrich Invocations</name>
         <description>JMBrew Presents - Infernal Cook Invocations</description>
         <author url="https://github.com/herloveface">JMBrew</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="warlock-invocations.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-invocations.xml" />
         </update>
     </info>
@@ -12,6 +12,7 @@
     <element name="Mise en place" type="Class Feature" source="JMBrew" id="ID_JMBREW_INVOCATIONS_MISEENPLACE">
         <supports>Eldritch Invocation, Infernal Cook</supports>
         <prerequisite>Infernal Cook Subclass</prerequisite>
+        <requirements>JMBREW_ARCHETYPE_INFERNALCOOK</requirements>
         <description>
             <p class="flavor">Prerequisite: Infernal Cook Subclass</p>
             <p>You can Cast Enhance Ability on yourself at will and it requires no components or spell slots.</p>
@@ -26,7 +27,7 @@
     <element name="Don't Disturb the Cook" type="Class Feature" source="JMBrew" id="ID_JMBREW_INVOCATIONS_DDTC">
         <supports>Eldritch Invocation</supports>
         <prerequisite>Infernal Cook, Level 10</prerequisite>
-        <requirements>[level:10]</requirements>
+        <requirements>JMBREW_ARCHETYPE_INFERNALCOOK,[level:10]</requirements>
         <description>
             <p class="flavor">Prerequisite: 10th level Infernal Cook</p>
             <p>You can Cast Silence 3 times per short rest without using any spell components or spell slots.</p>
