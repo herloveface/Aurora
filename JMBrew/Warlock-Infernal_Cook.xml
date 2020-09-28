@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.1.9">
+		<update version="0.2.0">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -155,6 +155,4 @@
 			<stat name="cooks utensils:proficiency" value="proficiency" bonus="double" />
 		</rules>
 	</element>
-	<!--Invocation requirements addition-->
-<element name="Infernal Cook Pact" type="Class Feature" source="JMBrew" id="ID_COOK PACT"></element>
 </elements>
