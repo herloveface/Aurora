@@ -25,6 +25,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
 			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" />
 			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+			<grant type="Class Feature" id="ID_COOK PACT" />
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_EXPANDED_SPELL_LIST" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_BUTCHERS_CHOICE" level="1"/>
 			<grant type="Archetype Feature" id="JMBREW_ARCHETYPE_INFERNALCOOK_DAMNED_COOK" level="1"/>
@@ -154,4 +155,6 @@
 			<stat name="cooks utensils:proficiency" value="proficiency" bonus="double" />
 		</rules>
 	</element>
+	<!--Invocation requirements addition-->
+<element name="Infernal Cook Pact" type="Class Feature" source="JMBrew" id="ID_COOK PACT"></element>
 </elements>
