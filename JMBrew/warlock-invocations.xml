@@ -26,7 +26,7 @@
     <element name="Don't Disturb the Cook" type="Class Feature" source="JMBrew" id="ID_JMBREW_INVOCATIONS_DDTC">
         <supports>Eldritch Invocation</supports>
         <prerequisite>Infernal Cook, Level 10</prerequisite>
-        <requirements>[level:10], JMBREW_ARCHETYPE_INFERNALCOOK</requirements>
+        <requirements>[level:10]</requirements>
         <description>
             <p class="flavor">Prerequisite: 10th level Infernal Cook</p>
             <p>You can Cast Silence 3 times per short rest without using any spell components or spell slots.</p>
