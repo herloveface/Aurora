@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
-	<element name="Infernal Cook" type="Archetype" source="JMBrew" id="JMBREW_ARCHETYPE_INFERNALCOOK">
+	<element name="Infernal Cook" type="Archetype" source="JMBrew" id="ID_JMBREW_ARCHETYPE_INFERNALCOOK">
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>So you have signed up with Jeff huh? Was that really that wise? Only time and your DM will tell.</p>
