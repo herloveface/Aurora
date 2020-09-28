@@ -4,7 +4,7 @@
         <name>Eldrich Invocations</name>
         <description>JMBrew Presents - Infernal Cook Invocations</description>
         <author url="https://github.com/herloveface">JMBrew</author>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="warlock-invocations.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-invocations.xml" />
         </update>
     </info>
