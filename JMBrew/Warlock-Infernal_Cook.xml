@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.2.4">
+		<update version="0.2.5">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -58,12 +58,12 @@
 			<extend>ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK</extend>
 			<extend>ID_PHB_SPELL_SLEEP</extend>
 			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
-			<extend>ID_PHB_SPELL_HOLD_PERSON</extend>
-			<extend>ID_PHB_SPELL_COUNTERSPELL</extend>
+			<extend>ID_PHB_SPELL_FLAME_BLADE</extend>
+			<extend>ID_PHB_SPELL_MELD_INTO_STONE</extend>
 			<extend>ID_PHB_SPELL_FIREBALL</extend>
 			<extend>ID_PHB_SPELL_CONTROL_WATER</extend>
 			<extend>ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND</extend>
-			<extend>ID_PHB_SPELL_CONTACT_OTHER_PLANE</extend>
+			<extend>ID_PHB_SPELL_GEAS</extend>
 			<extend>ID_PHB_SPELL_REINCARNATE</extend>
 		</spellcasting>
 	</element>
