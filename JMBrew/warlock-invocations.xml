@@ -4,7 +4,7 @@
         <name>Eldrich Invocations</name>
         <description>JMBrew Presents - Infernal Cook Invocations</description>
         <author url="https://github.com/herloveface">JMBrew</author>
-        <update version="0.1.0">
+        <update version="0.1.1">
             <file name="warlock-invocations.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-invocations.xml" />
         </update>
     </info>
@@ -39,5 +39,14 @@
         <rules>
         <grant type="Spell" id="ID_PHB_SPELL_SILENCE" />
         </rules>
+    </element>
+    <element name="Tools of the Trade" type="Class Feature" source="JMBrew" id="ID_JMBREW_INVOCATIONS_TRADETOOLS">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>As an action you can summon a set of tools that you have proficiency with. When you make any ability checks with these tools you can double your proficiency bonus. These tools stay until you die, dismiss them (as a bonus action) or use this ability again.</p>
+        </description>
+        <sheet>
+            <description>As an action you can summon a set of tools that you have proficiency with. When you make any ability checks with these tools you can double your proficiency bonus. These tools stay until you die, dismiss them (as a bonus action) or use this ability again.</description>
+        </sheet>
     </element>
 </elements>
