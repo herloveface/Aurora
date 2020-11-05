@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Infernal Cook</name>
-		<update version="0.2.5">
+		<update version="0.2.6">
 			<file name="warlock-Infernal_Cook.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/warlock-Infernal_Cook.xml" />
 		</update>
 	</info>
@@ -45,10 +45,10 @@
 					<tr><td>Spell Level</td><td>Spells</td></tr>
 				</thead> 
 				<tr><td>1st</td><td><em>Purify Food and Drink, Sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>Blindness/Deafness, Hold Person</em></td></tr>
-				<tr><td>3rd</td><td><em>Counterspell, Fireball</em></td></tr>
+				<tr><td>2nd</td><td><em>Blindness/Deafness, Flame Blade</em></td></tr>
+				<tr><td>3rd</td><td><em>Meld into Stone, Fireball</em></td></tr>
 				<tr><td>4th</td><td><em>Control Water, mordenkainen's faithful hound</em></td></tr>
-				<tr><td>5th</td><td><em>Contact Other Plane, Reincarnate</em></td></tr>
+				<tr><td>5th</td><td><em>Gaes, Reincarnate</em></td></tr>
 			</table>
 		</description>
 		<sheet display="false">
