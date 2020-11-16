@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 		</update>
 	</info>
@@ -75,7 +75,7 @@
 		<description>
 		</description>
 		<sheet>
-			<description>The Gáe Bulg requires training to use properly or it acts like a normal spear. If you have been trained in its proper use it gains the following properties: When a user has proficiency in it's use successfully stabs it into another creature (IE does damage) it becomes exceedingly difficult to remove safely as barbs jut out of the spears end impaling the damaged creature. This causes an extra 3d6 slashing/piercing damage when pulled out. Once the weapon is pulled out in this manner the creature that took damamge must make a constituion save with a DC equal to damage dealt + 8 or be knocked unconsious by the pain (Undead, constructs and those that cannot feel pain are immunne to thsi affect. </description>
+			<description>The Gáe Bulg requires training to use properly or it acts like a normal spear. If you have been trained in its proper use it gains the following properties: When a user proficient in it's use successfully stabs it into another creature (IE does damage) it becomes exceedingly difficult to remove safely as barbs jut out of the spears end impaling the damaged creature. This causes an extra 3d6 slashing/piercing damage when pulled out. Once the weapon is pulled out in this manner the creature that took damage must make a constitution save with a DC equal to damage dealt + 8 or be knocked unconscious by the pain (Undead, constructs and those that cannot feel pain are immune to this affect. </description>
 		</sheet>
 		<rules>
 		</rules>
