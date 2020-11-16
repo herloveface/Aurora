@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 		</update>
 	</info>
@@ -60,7 +60,7 @@
 		</description>
 		<setters>
 			<rules>
-				<grant type="Feat" source="JMBREW" id="ID_JMBREW_Gáe_BULG_RULE"
+			<grant type="Feat" source="JMBREW" id="ID_JMBREW_Gáe_BULG_RULE">
 			<set name="category">Weapons</set>
 			<set name="weight" lb="3">3 lb.</set>
 			<set name="slot">onehand</set>
