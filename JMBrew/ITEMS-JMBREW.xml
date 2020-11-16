@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="ITEMS-JMBREW.xml" url="https://raw.githubusercontent.com/herloveface/Aurora/master/JMBrew/ITEMS-JMBREW.xml" />
 		</update>
 	</info>
@@ -68,7 +68,7 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
 		</setters>
 		<rules>
-			<grant type="Feat" source="JMBREW" id="ID_JMBREW_Gáe_BULG_RULE">
+		<grant type="Feat" source="JMBREW" id="ID_JMBREW_Gáe_BULG_RULE" />
 		</rules>
 	</element>
 <element name="Gáe Bulg" type="Feat" source="Player’s Handbook" id="ID_JMBREW_Gáe_BULG_RULE">
